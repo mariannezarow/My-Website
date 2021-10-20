@@ -7,25 +7,25 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Andada Pro', serif;
   color: #222;
-  background: #f7f5f0;
+  background: peachpuff;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: rgb(255, 255, 255);
 }
 a:hover {
-  color: #6633ff;
+  color: rgb(124, 101, 81);
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: rgb(124, 101, 81);
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: peachpuff;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -57,8 +57,8 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
-  background-size: cover;
+  background: url('images/mtns.jpg') no-repeat top center ;
+  background-size: contain;
   overflow: hidden;
   padding-top: 60px;
 }
@@ -70,23 +70,23 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 5px dotted white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: peachpuff;
+  color: rgb(124, 101, 81);
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: rgb(124, 101, 81);
+  color: peachpuff;
 }
 .card {
   margin: 30px;
@@ -99,7 +99,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: rgb(124, 101, 81);
 }
 
 ul.skills {
@@ -110,14 +110,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: rgb(124, 101, 81);
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: tan;
 }
 
 footer {
