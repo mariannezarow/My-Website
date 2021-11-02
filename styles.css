@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Andada Pro', serif;
   color: #222;
-  background: peachpuff;
+  background: rgb(204, 204, 204);
 }
 /* Link Styles */
 
@@ -18,14 +18,14 @@ a {
   color: rgb(255, 255, 255);
 }
 a:hover {
-  color: rgb(124, 101, 81);
+  color: rgb(0, 0, 0);
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: rgb(124, 101, 81);
+  background: rgb(0, 0, 0);
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: peachpuff;
+    color: rgb(24, 36, 23);
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -70,23 +70,23 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 5px dotted white;
+  border: 5px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: peachpuff;
-  color: rgb(124, 101, 81);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: rgb(124, 101, 81);
-  color: peachpuff;
+  background-color: rgb(63, 63, 63);
+  color: rgb(253, 253, 253);
 }
 .card {
   margin: 30px;
@@ -99,7 +99,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: rgb(124, 101, 81);
+  border-color: rgb(0, 0, 0);
 }
 
 ul.skills {
@@ -110,14 +110,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: rgb(124, 101, 81);
+  background: rgb(59, 82, 33);
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: tan;
+  background: rgb(30, 39, 16);
 }
 
 footer {
